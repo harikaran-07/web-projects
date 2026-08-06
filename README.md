@@ -8,8 +8,8 @@ https://github.com/harikaran-07/web-projects
 🌐 Live Demos:
 • Personal Portfolio: https://your-portfolio-link.netlify.app
 • Landing Page: https://your-landing-page-link.netlify.app
-• Temperature Converter: https://your-temperature-converter-link.netlify.app
-• Fitness Tracker: https://mr-fitness-tracker.netlify.app
+
+• Temperature Converter: https://lnkd.in/gWbWQYDc
 
 ⭐ Feel free to explore the projects, try the live demos, and share your feedback!
 
