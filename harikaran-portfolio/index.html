@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harikaran — AIML Student & Web Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- background node graph canvas -->
+<canvas id="nodeCanvas"></canvas>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <a href="#hero" class="nav__brand">HK<span class="dot">.</span></a>
+  <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="nav__links" id="navLinks">
+    <a href="#about" data-idx="01">About</a>
+    <a href="#skills" data-idx="02">Skills</a>
+    <a href="#projects" data-idx="03">Projects</a>
+    <a href="#contact" data-idx="04">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero__inner">
+    <p class="hero__eyebrow">// building intelligent, responsive web experiences</p>
+    <h1 class="hero__name">Harikaran</h1>
+    <p class="hero__role">Web Developer <span class="hero__slash">/</span> AI &amp; ML Student</p>
+    <p class="hero__bio">19-year-old college student pursuing a degree in Artificial Intelligence and Machine Learning, passionate about building responsive web applications and solving real-world problems with data.</p>
+    <div class="hero__cta">
+      <a href="#projects" class="btn btn--primary">View Projects</a>
+      <a href="#contact" class="btn btn--ghost">Get in Touch</a>
+    </div>
+  </div>
+  <div class="hero__avatar">
+    <div class="avatar-ring">
+      <div class="avatar-placeholder">HK</div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="section__head">
+    <span class="section__index">01</span>
+    <h2 class="section__title">About Me</h2>
+  </div>
+  <div class="about__grid">
+    <p class="about__text">
+      I am a passionate Web Developer with a strong interest in designing and building responsive, user-friendly websites and web applications. I have experience working with HTML, CSS, JavaScript, and modern web development frameworks to create interactive digital solutions.
+    </p>
+    <p class="about__text">
+      Alongside development, I'm pursuing a degree in Artificial Intelligence and Machine Learning — my coursework spans machine learning, deep learning, programming, and data analytics. I enjoy solving problems, optimizing performance, and learning new technologies.
+    </p>
+    <p class="about__text">
+      My goal is to build innovative AI-powered web applications that deliver excellent user experiences, and to establish a successful career in the technology industry through continuous learning.
+    </p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section section--alt" id="skills">
+  <div class="section__head">
+    <span class="section__index">02</span>
+    <h2 class="section__title">Skills</h2>
+  </div>
+  <div class="skills__grid">
+    <div class="skill-card"><span class="skill-card__label">Languages</span><h3>Java</h3></div>
+    <div class="skill-card"><span class="skill-card__label">Languages</span><h3>Python</h3></div>
+    <div class="skill-card"><span class="skill-card__label">Languages</span><h3>C</h3></div>
+    <div class="skill-card"><span class="skill-card__label">Languages</span><h3>C++</h3></div>
+    <div class="skill-card"><span class="skill-card__label">Web</span><h3>Web Development</h3></div>
+    <div class="skill-card"><span class="skill-card__label">Web</span><h3>HTML</h3></div>
+    <div class="skill-card"><span class="skill-card__label">AI / ML</span><h3>Machine Learning</h3></div>
+    <div class="skill-card"><span class="skill-card__label">AI / ML</span><h3>Deep Learning Basics</h3></div>
+    <div class="skill-card"><span class="skill-card__label">Data</span><h3>Data Analysis</h3></div>
+    <div class="skill-card"><span class="skill-card__label">Data</span><h3>Data Visualization</h3></div>
+    <div class="skill-card"><span class="skill-card__label">Data</span><h3>SQL &amp; Databases</h3></div>
+    <div class="skill-card"><span class="skill-card__label">AI / ML</span><h3>AI Concepts</h3></div>
+    <div class="skill-card"><span class="skill-card__label">Tools</span><h3>Git &amp; GitHub</h3></div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+  <div class="section__head">
+    <span class="section__index">03</span>
+    <h2 class="section__title">Projects</h2>
+  </div>
+  <div class="projects__grid">
+
+    <article class="project-card">
+      <div class="project-card__glow"></div>
+      <span class="project-card__tag">My Project · Health &amp; Wellness</span>
+      <h3>Fitness &amp; Diet Plan Website</h3>
+      <p>A fitness and diet plan platform delivering personalized workout routines, healthy meal plans, nutrition guidance, calorie tracking, and progress monitoring to help users reach their fitness goals.</p>
+      <div class="project-card__tags">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+      </div>
+      <a href="https://github.com/harikaran-07/FITNESS-TRACKER.git" class="project-card__link">View on GitHub <span aria-hidden="true">→</span></a>
+    </article>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section section--alt" id="contact">
+  <div class="section__head">
+    <span class="section__index">04</span>
+    <h2 class="section__title">Contact</h2>
+  </div>
+  <div class="contact__wrap">
+    <h3 class="contact__name">Harikaran</h3>
+    <p class="contact__prompt">Let's build something intelligent together.</p>
+    <div class="contact__links">
+      <a href="mailto:harikarancr79@gmail.com" class="contact__item">
+        <span class="contact__icon">✉</span>
+        <span>harikarancr79@gmail.com</span>
+      </a>
+      <a href="https://www.linkedin.com/in/hari-karan-78020a390?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="contact__item">
+        <span class="contact__icon">in</span>
+        <span>LinkedIn</span>
+      </a>
+      <a href="https://github.com/harikaran-07" target="_blank" rel="noopener noreferrer" class="contact__item">
+        <span class="contact__icon">GH</span>
+        <span>GitHub</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>Designed &amp; built by Harikaran</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
