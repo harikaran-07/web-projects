@@ -6,8 +6,10 @@ A collection of responsive and beginner-friendly web development projects built 
 https://github.com/harikaran-07/web-projects
 
 🌐 Live Demos:
+
 • Personal Portfolio: https://your-portfolio-link.netlify.app
-• Landing Page: https://your-landing-page-link.netlify.app
+
+• Landing Page: https://harikaran-07.github.io/footballjersey-landingpage/
 
 • Temperature Converter: https://harikaran-07.github.io/temperature-converter/
 
