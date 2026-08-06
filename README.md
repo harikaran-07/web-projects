@@ -9,7 +9,7 @@ https://github.com/harikaran-07/web-projects
 • Personal Portfolio: https://your-portfolio-link.netlify.app
 • Landing Page: https://your-landing-page-link.netlify.app
 
-• Temperature Converter: https://lnkd.in/gWbWQYDc
+• Temperature Converter: https://harikaran-07.github.io/temperature-converter/
 
 ⭐ Feel free to explore the projects, try the live demos, and share your feedback!
 
