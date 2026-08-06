@@ -7,7 +7,7 @@ https://github.com/harikaran-07/web-projects
 
 🌐 Live Demos:
 
-• Personal Portfolio: https://your-portfolio-link.netlify.app
+• Personal Portfolio: https://harikaran-07.github.io/web-projects/harikaran-portfolio/
 
 • Landing Page: https://harikaran-07.github.io/footballjersey-landingpage/
 
